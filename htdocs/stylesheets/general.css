@@ -1,0 +1,64 @@
+BODY
+{
+ font-family: Times New Roman, Times, serif;
+ font-size: 11pt;
+ background-color: white;
+}
+
+p
+{
+	text-indent: 3ex;
+}
+
+p.all-indent
+{
+	text-indent: 0ex;
+	margin-left: 3ex;
+}
+
+p.no-indent
+{
+	text-indent: 0ex;
+}
+
+h1
+{
+	text-align: center;
+}
+
+p.signoff
+{
+	margin-left: 60%;
+}
+
+div.footer
+{
+	font-size: small;
+}
+
+div.out0
+{
+	background-color: #EEFFFF;
+	padding: 1px;
+}
+
+div.out1
+{
+	background-color: #DDFFFF;
+	padding: 1px;
+}
+
+div.out2
+{
+	background-color: #CCFFFF;
+	padding: 1px;
+}
+
+div.out3
+{
+	background-color: #BBFFFF;
+	padding-left: 4ex; 
+	padding-right: 1ex; 
+	padding-top: 1px; 
+	padding-bottom: 1px;
+}

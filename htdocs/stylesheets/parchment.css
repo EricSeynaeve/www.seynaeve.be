@@ -1,0 +1,77 @@
+body
+{
+	margin: 0px;
+	background: white;
+	padding: 6px;
+}
+
+table.parchment
+{
+	padding: 0px;
+	border: none;
+	width: 100%;
+}
+
+td.middle
+{
+	background: url(../images/parchment.jpg) repeat 40px 0px;
+}
+
+td.topleft
+{
+	background: url(../images/parchment_topleft.jpg) no-repeat right;
+	width: 30px;
+	height: 100px;
+}
+
+td.top
+{
+	background: url(../images/parchment_top.jpg) repeat-x;
+	height: 100px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+td.topright
+{
+	background: url(../images/parchment_topright.jpg) no-repeat left;
+	width: 17px;
+	height: 100px;
+}
+
+td.right
+{
+	background: url(../images/parchment.jpg) repeat-y -97px 0px;
+	width: 17px;
+}
+
+td.bottomright
+{
+	background: url(../images/parchment_bottomright.jpg) no-repeat left;
+	width: 17px;
+	height: 100px;
+}
+
+td.bottom
+{
+	background: url(../images/parchment_bottom.jpg) repeat-x;
+	height: 100px;
+}
+
+td.bottomleft
+{
+	background: url(../images/parchment_bottomleft.jpg) no-repeat right;
+	width: 30px;
+	height: 100px;
+}
+
+td.left
+{
+	background: url(../images/parchment.jpg) repeat-y 10px 0px;
+	width: 17px;
+}
+
+li.parchment
+{
+	list-style: circle url(../images/parchment_bullet.gif);
+}
